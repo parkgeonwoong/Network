@@ -53,13 +53,21 @@ Socket 클래스의 생성자에서 host 매개 변수는 컴퓨터의 이름을
 ▪ InetAddress getInetAddress() - 소켓이 연결된 곳의 주소를 리턴한다.
 
 ▪ InputStream getInputStream() - 소켓의 입력 스트림을 리턴한다.
+
 ▪ boolean getKeepAlive() - SO_KEEPALIVE가 활성화되었는지 알아본다.
+
 ▪ OutputStream getOutputStream() - 소켓의 출력 스트림을 리턴한다.
+
 ▪ int getPort() - 소켓에 연결된 서버의 포트 번호를 리턴한다.
+
 ▪ int getSoTimeout() - SO_TIMEOUT 값을 리턴한다.
+
 ▪ boolean isConnected() - 소켓이 연결되었는지 여부를 리턴한다.
+
 ▪ void setSoTimeout(int timeout) - SO_TIMEOUT 값(단위: 밀리초)을 설정한다.
+
 ▪ void shutdownInput() - 소켓의 입력 스트림을 닫는다.
+
 ▪ void shutdownOutput() - 소켓의 출력 스트림을 닫는다.
 
 Socket 클래스를 만든 후에는 클라이언트와 서버 사이에 데이터를 주고받을 수 있는 I/O
