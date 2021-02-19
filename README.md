@@ -8,7 +8,7 @@
 스를 리턴한다. ServerSocket 클래스는 다음과 같은 메소드들을 갖고 있다.
 ```
 
-<img src = "https://user-images.githubusercontent.com/65653053/108460753-a86bfe80-72bc-11eb-8aca-b80a664c40d6.png" width="70"></img>
+<img src = "https://user-images.githubusercontent.com/65653053/108460753-a86bfe80-72bc-11eb-8aca-b80a664c40d6.png" width="70%"></img>
 
 ▪ Socket accept()
 ```
@@ -39,10 +39,7 @@ SO_TIMEOUT 값을 알아본다. 0값을 리턴하는 경우에는 소켓 타임
 ```
 ▪ void setSoTimeout(int timeout) 
 ```
-소켓 타임아웃(단위: 밀리초)을 설정한다. 타임아웃 시간을 설정하는 경우에 서버 소켓을 accept() 메소드에서 타입 아웃으로 지정된 시간까지만 클라이언트의 연결을 기다란다. 만약 시간이 되도록 클라이언트의 연결이 없는 경우에는
-SocketTimeoutException 예외가 발생한다. timeout 값이 0인 경우에는 무한대를 의미한다.
-클라이언트 프로그램을 작성하는 경우에는 Socket 클래스를 생성해서 서버 프로그램에 접
-속한다. Socket 클래스는 다음과 같은 생성자를 이용해서 만들 수 있다.
+소켓 타임아웃(단위: 밀리초)을 설정한다. 타임아웃 시간을 설정하는 경우에 서버 소켓을 accept() 메소드에서 타입 아웃으로 지정된 시간까지만 클라이언트의 연결을 기다란다. 만약 시간이 되도록 클라이언트의 연결이 없는 경우에는 SocketTimeoutException 예외가 발생한다. timeout 값이 0인 경우에는 무한대를 의미한다. 클라이언트 프로그램을 작성하는 경우에는 Socket 클래스를 생성해서 서버 프로그램에 접속한다. Socket 클래스는 다음과 같은 생성자를 이용해서 만들 수 있다.
 ```
 ▪ Socket(String host, int port)
 ```
