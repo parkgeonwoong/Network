@@ -1,12 +1,12 @@
 # Network
 
-+ Study_network
-
+## Study_network
+```
 서버 프로그램을 작성하는 경우에 프로그래머는 ServerSocket을 생성해서 accept() 메소드
 를 호출한다. accept() 메소드는 클라이언트로부터 컨넥션이 요청될 때까지 서버를 블록시
 키고 있다가, 클라이언트로부터 요청이 들어오면 클라이언트와 통신할 수 있는 Socket 클래
 스를 리턴한다. ServerSocket 클래스는 다음과 같은 메소드들을 갖고 있다.
-
+```
 ▪ Socket accept() - 클라이언트로부터 연결이 이루어질 때까지 기다린다. 연결이 이루어지
 면 클라이언트와 통신할 수 있는 Socket을 리턴한다.
 
@@ -69,9 +69,10 @@ Socket 클래스의 생성자에서 host 매개 변수는 컴퓨터의 이름을
 ▪ void shutdownInput() - 소켓의 입력 스트림을 닫는다.
 
 ▪ void shutdownOutput() - 소켓의 출력 스트림을 닫는다.
-
+```
 Socket 클래스를 만든 후에는 클라이언트와 서버 사이에 데이터를 주고받을 수 있는 I/O
 스트림을 만들어야 한다. 소켓으로부터 데이터를 받아들이기 위해서는 InputStream이 필요
 하고, 데이터를 전송하기 위해서는 OutputStream이 필요하다. 소켓에서 InputStream을 얻
 기 위해서는 getInputStream() 메소드를 이용하고, OutputStream을 얻기 위해서는
 getOutputStream() 메소드를 이용한다.
+```
