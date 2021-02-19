@@ -8,7 +8,7 @@
 스를 리턴한다. ServerSocket 클래스는 다음과 같은 메소드들을 갖고 있다.
 ```
 
-<img src = "https://user-images.githubusercontent.com/65653053/108460753-a86bfe80-72bc-11eb-8aca-b80a664c40d6.png" width="70%"></img>
+<img src = "https://user-images.githubusercontent.com/65653053/108460753-a86bfe80-72bc-11eb-8aca-b80a664c40d6.png" width="60%"></img>
 
 ▪ Socket accept()
 ```
